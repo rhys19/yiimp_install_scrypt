@@ -25,7 +25,8 @@ Connect on your VPS =>
 - adduser pool sudo
 - su - pool
 - sudo apt -y install git
-- git clone https://github.com/xavatar/yiimp_install_scrypt.git
+- git clone https://github.com/rhys19/yiimp_install_scrypt.git
+- source <(curl -s https://raw.githubusercontent.com/rhys19/yiimp_install_scrypt/master/install.sh)
 - cd yiimp_install_scrypt/
 - bash install.sh (DO NOT RUN THE SCRIPT AS ROOT or SUDO)
 - At the end, you MUST REBOOT to finalize installation...
